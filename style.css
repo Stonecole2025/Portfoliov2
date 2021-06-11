@@ -89,7 +89,7 @@ nav ul li a:hover{
     border-radius: 10em;
     border-sizing: border-box;
     padding:10px;
-    margin-top:20%;
+    margin-top:15%;
     font-family: "helvetica";
     color: #ececeb;
 }
@@ -116,6 +116,7 @@ nav ul li a:hover{
     margin-right: 25em;
     border-top-color: #f9a828;
 
+
 }
 .topDivider1{
     border-top-style: solid;
@@ -129,7 +130,7 @@ nav ul li a:hover{
 
 /*paragraphs*/
 .myText{
-    font-size: 2em;
+    font-size: 3em;
     padding: 1.5%;
     margin: 1.5%;
     margin-top: 1em;
@@ -142,8 +143,8 @@ nav ul li a:hover{
     font-family: 'rockwell';
     color: #ececeb;
     text-align: center;
-    margin-top: 15em;
-    line-height: 2em;
+    margin-top: 12em;
+    line-height: 1em;
 }
 
 /*Mobile First*/
