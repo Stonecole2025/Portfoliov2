@@ -66,7 +66,7 @@ nav ul li a:hover{
 
 /*Headings*/
 .firstHeading{
-    color: #ececeb;
+    color: #f9a828;
     text-align: center;
     font-family: 'rockwell';
 
@@ -84,11 +84,24 @@ nav ul li a:hover{
 /*Class for Clickable Cards*/
 .card{
     width: 90%;
-    border: 1px solid #f9a828;
-    border-radius: 10em;
+    border: 2px solid #f9a828;
+    border-radius: 5em;
     border-sizing: border-box;
     padding:10px;
     margin-top:15%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "rockwell";
+    color: #ececeb;
+}
+.card1{
+    width: 50%;
+    border: 2px solid #f9a828;
+    border-radius: 10em;
+    border-sizing: border-box;
+    padding: 5%;
+    margin-bottom: -2%;
+    margin-top: 3.5%;
     margin-left: auto;
     margin-right: auto;
     font-family: "rockwell";
@@ -112,16 +125,17 @@ nav ul li a:hover{
 /*Top Divider*/
 .topDivider{
     border-top-style: solid;
-    border-top-width: 2px;
+    border-top-width: 1px;
     margin-left: 25em;
     margin-right: 25em;
+    margin-top: 3em;
     border-top-color: #f9a828;
 
 
 }
 .topDivider1{
     border-top-style: solid;
-    border-top-width: 2px;
+    border-top-width: 0.5em;
     margin-left: 25em;
     margin-right: 25em;
     border-top-color: #f9a828;
@@ -133,8 +147,12 @@ nav ul li a:hover{
 .myText{
     font-size: 3em;
     padding: 1.5%;
-    margin: 1.5%;
-    margin-top: 1em;
+    text-align: center;
+}
+.myText1{
+    font-size: 1.5em;
+    color: #ececeb;
+    line-height: 1.5em;
     margin-left: auto;
     margin-right: auto;
 }
@@ -144,7 +162,9 @@ nav ul li a:hover{
     font-family: 'rockwell';
     color: #ececeb;
     text-align: center;
-    margin-top: 12em;
+    margin-top: 6em;
+    margin-left: auto;
+    margin-right: auto;
     line-height: 1em;
 }
 
