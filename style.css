@@ -1,0 +1,165 @@
+html{
+    width: 80%;
+    height: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*Homepage*/
+.frontPage{
+    background: #2e383f;
+}
+
+.resume{
+    width: 60%;
+    border-radius: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 20%;
+}
+
+/*Navigation*/
+nav ul{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #2e383f;
+    padding:0.5em;
+    display: flex;
+    flex-direction:column;
+}
+
+nav ul li{
+    text-align: center;
+    list-style-type: none;
+    display: flex;
+    display:inline;
+    justify-content: flex-start;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    color: #ececeb;
+
+}
+a {
+    color:#ececeb;
+    text-decoration: none;
+}
+a:hover{
+    color: #07617d;
+}
+
+nav ul li a:hover{
+    color: #07617d;
+}
+.btn {
+  background-color: #f9a828;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  padding: 8px 30px;
+  text-align: center;
+  font-size: 16px;
+  margin: 10px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+.btn:hover {opacity: 1}
+
+
+/*Headings*/
+.firstHeading{
+    color: #ececeb;
+    text-align: center;
+    font-family: 'rockwell';
+
+}
+/*Class for images*/
+.tinyPicture{
+   height: 6em;
+   width: 6em;
+   float:left;
+   border-radius: 10em;
+   display:flex;
+   justify-content: flex-start;
+}
+
+/*Class for Clickable Cards*/
+.card{
+    width: 100%;
+    border: 1px solid #f9a828;
+    border-radius: 10em;
+    border-sizing: border-box;
+    padding:10px;
+    margin-top:20%;
+    font-family: "helvetica";
+    color: #ececeb;
+}
+
+
+
+
+/*CardContainer*/
+.cardContainer{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    padding:10px;
+    float:left;
+    line-height: 2em;
+
+}
+
+/*Top Divider*/
+.topDivider{
+    border-top-style: solid;
+    border-top-width: 2px;
+    margin-left: 25em;
+    margin-right: 25em;
+    border-top-color: #f9a828;
+
+}
+.topDivider1{
+    border-top-style: solid;
+    border-top-width: 2px;
+    margin-left: 25em;
+    margin-right: 25em;
+    border-top-color: #f9a828;
+    padding: 2em;
+
+}
+
+/*paragraphs*/
+.myText{
+    font-size: 2em;
+    padding: 1.5%;
+    margin: 1.5%;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Footer*/
+.bottom{
+    font-family: 'rockwell';
+    color: #ececeb;
+    text-align: center;
+    margin-top: 15em;
+    line-height: 2em;
+}
+
+/*Mobile First*/
+/*small screens*/
+@media all and (min-width:1000px){
+    nav ul{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+
+/*BIG SCREENS*/
+@media all and (min-width:1600px){
+    nav ul{
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+}
+
