@@ -74,8 +74,8 @@ nav ul li a:hover{
 }
 /*Class for images*/
 .tinyPicture{
-   height: 6em;
-   width: 6em;
+   height: 4em;
+   width: 4em;
    float:left;
    border-radius: 10em;
    display:flex;
