@@ -175,16 +175,11 @@ nav ul li a:hover{
 
 /*Mobile First*/
 /*small screens*/
-@media all and (min-width:1000px){
+@media all and (min-width:900px){
     nav ul{
         flex-direction: column;
         justify-content: space-around;
         }
-    .tinyPicture{
-        flex-direction: column;
-        justify-content: space-around;
-    }
-
 }
 
 /*BIG SCREENS*/
@@ -193,5 +188,5 @@ nav ul li a:hover{
         flex-direction: row;
         justify-content: flex-end;
     }
-}
+=}
 
