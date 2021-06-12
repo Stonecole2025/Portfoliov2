@@ -186,7 +186,7 @@ nav ul li a:hover{
    float:left;
    border-radius: 10em;
    display:flex;
-   justify-content: flex-start;
+   justify-content: space-around;
     }
 }
 
