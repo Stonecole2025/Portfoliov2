@@ -175,7 +175,7 @@ nav ul li a:hover{
 
 /*Mobile First*/
 /*small screens*/
-@media all and (min-width:800px){
+@media all and (min-width:1000px){
     nav ul{
         flex-direction: row;
         justify-content: space-around;
