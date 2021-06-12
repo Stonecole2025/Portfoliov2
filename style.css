@@ -10,13 +10,11 @@ img{
     height: auto;
     border-radius: 30px;
     }
-
-#img1{
-    max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    }
-
+ #img1{
+    display:block;
+    margin: 0 auto;
+    margin-bottom: 5%;
+ }
 
 /*Navigation*/
 nav ul{
@@ -71,6 +69,13 @@ nav ul li a:hover{
     text-align: center;
     font-family: 'rockwell';
     }
+.secondHeading{
+    color: #f9a828;
+    text-align: center;
+    font-family: 'rockwell';
+    margin-right: auto;
+    margin-left: auto;
+    }
 /*Class for images*/
 .tinyPicture{
    height: 4em;
@@ -96,7 +101,7 @@ nav ul li a:hover{
 
 .card1{
     width: 80%;
-    padding: 5%;
+    padding: 1%;
     margin-bottom: -5%;
     margin-top: 3.5%;
     margin-left: auto;
