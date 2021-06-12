@@ -177,17 +177,14 @@ nav ul li a:hover{
 /*small screens*/
 @media all and (min-width:1000px){
     nav ul{
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-around;
         }
     .tinyPicture{
-   height: 2em;
-   width: 2em;
-   float:left;
-   border-radius: 10em;
-   display:flex;
-   justify-content: space-around;
+        flex-direction: column;
+        justify-content: space-around;
     }
+
 }
 
 /*BIG SCREENS*/
