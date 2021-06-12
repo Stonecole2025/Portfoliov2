@@ -89,6 +89,7 @@ nav ul li a:hover{
 
 
 /*Class for Clickable Cards*/
+
 .card{
     width: 80%;
     padding:5px;
@@ -97,17 +98,19 @@ nav ul li a:hover{
     margin-right: auto;
     font-family: "rockwell";
     color: #ececeb;
+    word-wrap: break-word;
     }
 
 .card1{
     width: 80%;
-    padding: 1%;
+    padding: 5px;
     margin-bottom: -5%;
-    margin-top: 3.5%;
+    margin-top: 10%;
     margin-left: auto;
     margin-right: auto;
     font-family: "rockwell";
     color: #ececeb;
+    word-wrap: break-word;
     }
 
 
@@ -177,6 +180,14 @@ nav ul li a:hover{
         flex-direction: row;
         justify-content: space-around;
         }
+    .tinyPicture{
+   height: 2em;
+   width: 2em;
+   float:left;
+   border-radius: 10em;
+   display:flex;
+   justify-content: flex-start;
+    }
 }
 
 /*BIG SCREENS*/
