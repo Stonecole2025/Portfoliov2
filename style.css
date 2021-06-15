@@ -10,15 +10,13 @@ img{
     height: auto;
     border-radius: 30px;
     }
- #img1{
-    display:block;
-    margin: 0 auto;
-    margin-bottom: 5%;
- }
 
 .aside1{
-    min-width: 3px;
+    max-width: 50%;
+    float: right;
+    height: auto;
     margin: 10px;
+    border: solid medium white;
 }
 
 /*Navigation*/
@@ -152,17 +150,17 @@ nav ul li a:hover{
     }
 
 .myText1{
-    font-size: 1.3em;
+    font-size: 1.3vw;
     font-family: 'rockwell';
     color: #ececeb;
     line-height: 1.5em;
     width: 45%;
     margin: 10px;
     padding: 10px;
-    text-indent: 50px;
+    text-indent: 10px;
     }
 .myText2{
-    font-size: 1.3vw;
+    font-size: 1.3px;
     font-family: 'rockwell';
     color: #ececeb;
     line-height: 2em;
@@ -199,3 +197,4 @@ nav ul li a:hover{
         justify-content: flex-end;
     }
 }
+
