@@ -16,6 +16,11 @@ img{
     margin-bottom: 5%;
  }
 
+.aside1{
+    min-width: 3px;
+    margin: 10px;
+}
+
 /*Navigation*/
 nav ul{
     padding:0.5em;
