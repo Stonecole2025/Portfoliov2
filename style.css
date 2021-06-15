@@ -16,11 +16,6 @@ img{
     margin-bottom: 5%;
  }
 
- #img2{
-    min-width: 20%;
-    min-height: 10%;
- }
-
 /*Navigation*/
 nav ul{
     padding:0.5em;
@@ -162,13 +157,14 @@ nav ul li a:hover{
     text-indent: 50px;
     }
 .myText2{
-    font-size: 1.3em;
+    font-size: 1.3vw;
     font-family: 'rockwell';
     color: #ececeb;
     line-height: 2em;
     text-indent: 50px;
     margin-right:auto;
     margin-left:auto;
+    word-wrap: break-word;
 }
 
 /*Footer*/
