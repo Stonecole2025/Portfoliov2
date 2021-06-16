@@ -3,8 +3,10 @@
 .frontPage{
     background: #2e383f;
     max-width: 1280px;
+    max-height: auto;
     margin-left: auto;
     margin-right: auto;
+    border: solid thin #ececeb;
 }
 
 
