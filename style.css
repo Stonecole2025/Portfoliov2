@@ -5,19 +5,23 @@
     max-width:100%;
 }
 
-img{
-    max-width: 100%;
-    height: auto;
-    border-radius: 30px;
-    }
-
-.aside1{
-    max-width: 50%;
-    float: right;
-    height: auto;
+#paper{
+    border: solid thin black;
+    width: 60%;
     margin: 10px;
-    border: solid medium white;
+    padding:10px;
+
 }
+
+.work{
+    height:auto;
+    width: 40vw;
+    float: right;
+    margin: 10px;
+    border-radius: 10px;
+    border: 2px solid #f9a828;
+}
+
 
 /*Navigation*/
 nav ul{
@@ -100,8 +104,8 @@ nav ul li a:hover{
 .card1{
     width: 80%;
     padding: 5px;
-    margin-bottom: -5%;
-    margin-top: 10%;
+    margin-bottom: 5%;
+    margin-top: 5%;
     margin-left: auto;
     margin-right: auto;
     font-family: "rockwell";
@@ -150,7 +154,7 @@ nav ul li a:hover{
     }
 
 .myText1{
-    font-size: 1.3vw;
+    font-size: 1.3em;
     font-family: 'rockwell';
     color: #ececeb;
     line-height: 1.5em;
@@ -160,7 +164,7 @@ nav ul li a:hover{
     text-indent: 10px;
     }
 .myText2{
-    font-size: 1.3vw;
+    font-size: 1.5em;
     font-family: 'rockwell';
     color: #ececeb;
     line-height: 2em;
@@ -175,10 +179,11 @@ nav ul li a:hover{
     font-family: 'rockwell';
     color: #ececeb;
     text-align: center;
-    margin-top: 5em;
+    margin-top: 10em;
     display:block;
     margin: 5 auto;
     line-height: 1em;
+    clear: both;
     }
 
 /*Mobile First*/
