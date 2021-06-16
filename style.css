@@ -2,7 +2,7 @@
 /*Homepage*/
 .frontPage{
     background: #2e383f;
-    max-width:80%;
+    max-width: 1280px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -19,10 +19,7 @@
 
 #img1{
     border: outset medium #f9a828;
-    width: 80%;
-    height: auto;
-    margin-left: 8%;
-    padding: 0;
+    width: 60%;
 
 }
 
