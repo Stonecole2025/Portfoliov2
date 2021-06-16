@@ -11,12 +11,11 @@
 
 
 .work{
-    height:auto;
-    width: 40%;
+    height:260px;
+    width: 300px;
     float: right;
     margin: 10px;
     border-radius: 10px;
-    border: 2px solid #f9a828;
 }
 
 #img1{
@@ -121,12 +120,9 @@ nav ul li a:hover{
 
 /*CardContainer*/
 .cardContainer{
-    display:flex;
-    flex-wrap:wrap;
-    justify-content:space-around;
-    padding:10px;
-    float:left;
-    line-height: 2em;
+    margin: 150px auto;
+    width: 50%;
+    padding: 8px;
     }
 
 /*Top Divider*/
@@ -165,6 +161,7 @@ nav ul li a:hover{
     margin: 10px;
     padding: 10px;
     text-indent: 10px;
+    text-align: justify;
     word-wrap: break-word;
     }
 .myText2{
