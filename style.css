@@ -2,7 +2,9 @@
 /*Homepage*/
 .frontPage{
     background: #2e383f;
-    max-width:100%;
+    max-width:80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #paper{
@@ -15,7 +17,7 @@
 
 .work{
     height:auto;
-    width: 40vw;
+    width: 40%;
     float: right;
     margin: 10px;
     border-radius: 10px;
@@ -162,6 +164,7 @@ nav ul li a:hover{
     margin: 10px;
     padding: 10px;
     text-indent: 10px;
+    word-wrap: break-word;
     }
 .myText2{
     font-size: 1.5em;
