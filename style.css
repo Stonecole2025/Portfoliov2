@@ -1,7 +1,7 @@
 
 /*Homepage*/
 .frontPage{
-    background: #2e383f;
+    background: linear-gradient(#d4d4d4);
     max-width: 1280px;
     max-height: auto;
     margin-left: auto;
@@ -19,7 +19,7 @@
 }
 
 #img1{
-    border: outset medium #f9a828;
+    border: outset medium #ffdf6c;
     width: 100%;
 
 }
@@ -35,30 +35,35 @@ nav ul li{
     list-style-type: none;
     margin-left: 0.5em;
     margin-right: 0.5em;
-    color: #ececeb;
+
     }
 
+.navigate{
+    text-align: center;
+    line-height: 1.5em;
+}
+
 a {
-    color:#ececeb;
+    color: BLACK;
     text-decoration: none;
     }
 a:hover{
-    color: #07617d;
+    color: blue;
     }
 
 nav ul li a:hover{
-    color: #07617d;
+    color: #blue;
     }
 .btn {
-  background-color: #f9a828;
+  background-color: #77dd77;
   border: none;
   border-radius: 20px;
-  color: white;
+  color: black;
   padding: 7px 30px;
   text-align: center;
   font-size: 16px;
   margin: 10px 25px;
-  opacity: 0.6;
+  opacity: 0.8;
   transition: 0.3s;
   }
 
@@ -66,12 +71,12 @@ nav ul li a:hover{
 
 /*Headings*/
 .firstHeading{
-    color: #f9a828;
+    color: #1F7D1F;
     text-align: center;
     font-family: 'rockwell';
     }
 .secondHeading{
-    color: #f9a828;
+    color: #ffdf6c;
     text-align: center;
     font-family: 'rockwell';
     margin-right: auto;
@@ -111,8 +116,8 @@ nav ul li a:hover{
     margin-left: auto;
     margin-right: auto;
     font-family: "rockwell";
-    color: #ececeb;
     word-wrap: break-word;
+    background: #77dd77;
     }
 
 
@@ -132,7 +137,7 @@ nav ul li a:hover{
     margin-left: auto;
     margin-right: auto;
     margin-top: 3em;
-    border-top-color: #f9a828;
+    border-top-color: #E55B13;
     }
 
 .topDivider1{
@@ -140,12 +145,13 @@ nav ul li a:hover{
     border-top-width: 1px;
     margin-left: auto;
     margin-right: auto;
-    border-top-color: #f9a828;
+    border-top-color: #E55B13;
     padding: 2em;
     }
 
 /*paragraphs*/
 .myText{
+    color: black;
     font-size: 3em;
     font-family: 'rockwell';
     padding: 1.5%;
@@ -155,7 +161,7 @@ nav ul li a:hover{
 .myText1{
     font-size: 1.3em;
     font-family: 'rockwell';
-    color: #ececeb;
+    color: #2e383f;
     line-height: 1.5em;
     text-indent: 10px;
     text-align: justify;
@@ -164,7 +170,7 @@ nav ul li a:hover{
 .myText2{
     font-size: 1.5em;
     font-family: 'rockwell';
-    color: #ececeb;
+    color: #2e383f;
     line-height: 2em;
     text-indent: 50px;
     margin-right:auto;
@@ -175,7 +181,7 @@ nav ul li a:hover{
 /*Footer*/
 .bottom{
     font-family: 'rockwell';
-    color: #ececeb;
+    color: #2e383f;
     text-align: center;
     margin-top: 10em;
     display:block;
@@ -191,6 +197,9 @@ nav ul li a:hover{
         flex-direction: row;
         justify-content: space-around;
         }
+    .navigate{
+           display: inline;
+    }
 }
 
 /*BIG SCREENS*/
@@ -199,35 +208,4 @@ nav ul li a:hover{
         flex-direction: row;
         justify-content: flex-end;
     }
-}
-
-/*TOOLTIP*/
-.tooltip {
-  position: relative;
-  display: inline-block;
-  border-bottom: 1px dotted black;
-}
-
-.tooltip .tooltiptext {
-  visibility: hidden;
-  width: 120px;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
-  position: absolute;
-  z-index: 1;
-  bottom: 100%;
-  left: 50%;
-  margin-left: -60px;
-
-  /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
-  opacity: 0;
-  transition: opacity 1s;
-}
-
-.tooltip:hover .tooltiptext {
-  visibility: visible;
-  opacity: 1;
 }
