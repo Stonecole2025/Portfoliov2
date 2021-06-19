@@ -7,6 +7,12 @@
     margin-right: auto;
     border: solid thin #ececeb;
     background: #ececeb;
+    color: black;
+}
+
+.dark-mode{
+    background-color: #282828;
+    color: inherit;
 }
 
 
@@ -19,8 +25,8 @@
 }
 
 #img1{
-    border: outset medium #ffdf6c;
     width: 100%;
+    border-radius: 10px;
 
 }
 
@@ -76,7 +82,7 @@ nav ul li a:hover{
     font-family: 'rockwell';
     }
 .secondHeading{
-    color: #ffdf6c;
+    color: #1F7D1F;
     text-align: center;
     font-family: 'rockwell';
     margin-right: auto;
@@ -207,4 +213,22 @@ nav ul li a:hover{
         flex-direction: row;
         justify-content: flex-end;
     }
+}
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) {
+
 }

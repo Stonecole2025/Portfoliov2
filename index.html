@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="style.css">
+<script>
+    function myFunction(){
+    var element = document.body;
+    element.classList.toggle("dark-mode");
+    }
+</script>
+
 </head>
 <body class="frontPage">
 <header>
@@ -22,6 +29,7 @@
 </header>
 
 <main>
+    <button onclick="myFunction()">Toggle dark mode</button>
     <article class="card">
         <h1 class="firstHeading">Welcome to my</h1>
 
