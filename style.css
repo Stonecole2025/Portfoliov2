@@ -5,7 +5,7 @@
     max-height: auto;
     margin-left: auto;
     margin-right: auto;
-    background: #ececeb;
+    background: radial-gradient(#e1b382, #c89666);
 }
 
 
@@ -55,7 +55,7 @@ nav ul li a:hover{
     color: blue;
     }
 .btn {
-  background-color: #77dd77;
+  background-color: #e1b382;
   border: none;
   border-radius: 20px;
   color: black;
@@ -71,26 +71,17 @@ nav ul li a:hover{
 
 /*Headings*/
 .firstHeading{
-    color: #1F7D1F;
+    color: black;
     text-align: center;
     font-family: 'rockwell';
     }
 .secondHeading{
-    color: #1F7D1F;
+    color: #c89666;
     text-align: center;
     font-family: 'rockwell';
     margin-right: auto;
     margin-left: auto;
     }
-/*Class for images*/
-#tinyPicture{
-   height: 4em;
-   width: 4em;
-   float:left;
-   border-radius: 10em;
-   display:flex;
-   justify-content: flex-start;
-   }
 
 
 
@@ -103,7 +94,7 @@ nav ul li a:hover{
     margin-left: auto;
     margin-right: auto;
     font-family: "rockwell";
-    color: #ececeb;
+    color: #c89666;
     word-wrap: break-word;
     }
 
@@ -136,7 +127,7 @@ nav ul li a:hover{
     margin-left: auto;
     margin-right: auto;
     margin-top: 3em;
-    border-top-color: #E55B13;
+    border-top-color: #ececeb;
     }
 
 .topDivider1{
@@ -150,7 +141,7 @@ nav ul li a:hover{
 
 /*paragraphs*/
 .myText{
-    color: black;
+    color: #ececeb;
     font-size: 3em;
     font-family: 'rockwell';
     padding: 1.5%;
@@ -160,7 +151,7 @@ nav ul li a:hover{
 .myText1{
     font-size: 1.3em;
     font-family: 'rockwell';
-    color: #2e383f;
+    color: #ececeb;
     line-height: 1.5em;
     text-indent: 10px;
     text-align: justify;
@@ -169,7 +160,7 @@ nav ul li a:hover{
 .myText2{
     font-size: 1.5em;
     font-family: 'rockwell';
-    color: #2e383f;
+    color: #ececeb;
     line-height: 2em;
     text-indent: 50px;
     margin-right:auto;
@@ -230,7 +221,7 @@ nav ul li a:hover{
 @media (prefers-color-scheme: dark) {
   .frontPage {
     color: #ececeb;
-    background: #121212;
+    background:#2d545e;
   }
   .myText{
     color: white;
@@ -250,4 +241,8 @@ nav ul li a:hover{
 
 nav ul li a{
     color: white;
+}
+
+.btn{
+
 }
