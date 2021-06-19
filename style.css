@@ -5,15 +5,9 @@
     max-height: auto;
     margin-left: auto;
     margin-right: auto;
-    border: solid thin #ececeb;
     background: #ececeb;
-    color: black;
 }
 
-.dark-mode{
-    background-color: #282828;
-    color: inherit;
-}
 
 
 .work{
@@ -50,7 +44,7 @@ nav ul li{
 }
 
 a {
-    color: BLACK;
+    color: blue;
     text-decoration: none;
     }
 a:hover{
@@ -58,7 +52,7 @@ a:hover{
     }
 
 nav ul li a:hover{
-    color: #blue;
+    color: blue;
     }
 .btn {
   background-color: #77dd77;
@@ -231,4 +225,29 @@ nav ul li a:hover{
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: landscape) {
 
+}
+
+@media (prefers-color-scheme: dark) {
+  .frontPage {
+    color: #ececeb;
+    background: #121212;
+  }
+  .myText{
+    color: white;
+  }
+
+  .myText1{
+    color:white;
+  }
+  .myText2{
+    color: white;
+  }
+
+  a {
+    color: #809fff;
+  }
+}
+
+nav ul li a{
+    color: white;
 }
