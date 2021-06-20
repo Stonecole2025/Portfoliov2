@@ -38,21 +38,18 @@ nav ul li{
 
     }
 
-.navigate{
-    text-align: center;
-    line-height: 1.5em;
-}
+
 
 a {
-    color: blue;
+    color: white;
     text-decoration: none;
     }
 a:hover{
-    color: blue;
+    color: #171717;
     }
 
 nav ul li a:hover{
-    color: blue;
+    color: #171717;
     }
 .btn {
   background-color: #e1b382;
@@ -71,9 +68,10 @@ nav ul li a:hover{
 
 /*Headings*/
 .firstHeading{
-    color: black;
+    color: #2d545e;
     text-align: center;
     font-family: 'rockwell';
+
     }
 .secondHeading{
     color: #c89666;
@@ -128,6 +126,7 @@ nav ul li a:hover{
     margin-right: auto;
     margin-top: 3em;
     border-top-color: #ececeb;
+    box-shadow: 1px 1px 1px #666;
     }
 
 .topDivider1{
@@ -135,8 +134,9 @@ nav ul li a:hover{
     border-top-width: 1px;
     margin-left: auto;
     margin-right: auto;
-    border-top-color: #E55B13;
-    padding: 2em;
+    border-top-color: #ececeb;
+    box-shadow: 1px 1px 1px #666;
+
     }
 
 /*paragraphs*/
@@ -146,6 +146,7 @@ nav ul li a:hover{
     font-family: 'rockwell';
     padding: 1.5%;
     text-align: center;
+    text-shadow: 1px 1px 1px #666;
     }
 
 .myText1{
@@ -221,8 +222,9 @@ nav ul li a:hover{
 @media (prefers-color-scheme: dark) {
   .frontPage {
     color: #ececeb;
-    background:#2d545e;
+    background: radial-gradient(#282c35, #171717);
   }
+
   .myText{
     color: white;
   }
@@ -237,12 +239,18 @@ nav ul li a:hover{
   a {
     color: #809fff;
   }
-}
+
 
 nav ul li a{
     color: white;
 }
 
 .btn{
+    background-color: #c89666;
+}
+
+.firstHeading{
+    color:#c89666;
+}
 
 }
