@@ -81,6 +81,10 @@ nav ul li a:hover{
     margin-left: auto;
     }
 
+.head{
+    letter-spacing: 1px;
+}
+
 
 
 /*Class for Clickable Cards*/
